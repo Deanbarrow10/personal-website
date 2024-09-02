@@ -31,7 +31,7 @@ const socialLinks = {
   facebook: "https://www.facebook.com/dean.barrow.5015/",
   x: "https://twitter.com/dean_b20",
   github: "https://github.com/Deanbarrow10",
-  google: "https://www.instagram.com/dean_barrow9/",
+  instagram: "https://www.instagram.com/dean_barrow9/",
   slack: "https://slack.com/",
 };
 
