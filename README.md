@@ -1,3 +1,3 @@
 # Personal Website
 
-Here is Dean Barrow's personal website.
+Here is my personal website. 
