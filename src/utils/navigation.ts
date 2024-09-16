@@ -1,9 +1,8 @@
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
+  { name: "Projects", url: "/products" },
   { name: "Services", url: "/services" },
-  { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
 ];
 // An array of links for footer
@@ -31,8 +30,8 @@ const socialLinks = {
   facebook: "https://www.facebook.com/dean.barrow.5015/",
   x: "https://twitter.com/dean_b20",
   github: "https://github.com/Deanbarrow10",
-  instagram: "https://www.instagram.com/dean_barrow9/",
-  slack: "https://slack.com/",
+  linkedIn: "https://www.linkedin.com/in/dbarrow10",
+  slack: "https://stanfordesrg.slack.com/team/U06S5RM2Y8M",
 };
 
 export default {

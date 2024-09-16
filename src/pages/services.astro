@@ -36,58 +36,57 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Delivering Expert Guidance",
+    title: "Exceptional Academic Background",
     subTitle:
-      "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on product selection, project scope, and compliance with local regulations.",
+      "My academic journey has been marked by exceptional achievements, including acceptance into every single Ivy League university, MIT, and Stanford. With a near-perfect SAT score of 1550 (800 in Math, 750 in Reading/Writing), I bring a wealth of personal experience to my tutoring. I've successfully helped numerous students gain admission to top 20 universities, leveraging my firsthand knowledge of the application process.",
     single: false,
     imgOne: blueprints,
-    imgOneAlt: "Blueprints and digital tablet with construction plans.",
+    imgOneAlt: "Student reviewing college acceptance letters",
     imgTwo: personWorking,
-    imgTwoAlt: "Person working in the office",
+    imgTwoAlt: "Student studying with tutor",
   },
   {
     isRightSection: false,
-    title: "Transforming Designs into Reality",
+    title: "Comprehensive Services",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "I offer a wide range of services tailored to meet your college application needs. These include in-depth essay reviews, intensive SAT exam preparation, comprehensive Common App guidance, and strategic application planning recommendations. My rate is $200 per hour, with package plans available for more extensive support. For detailed information on package plans, please reach out to me directly at dbarrow@stanford.edu.",
     img: beforeAfter,
-    imgAlt: "Construction site before and after",
+    imgAlt: "Before and after SAT scores improvement",
     btnExists: true,
-    btnTitle: "Learn More",
-    btnURL: "#",
+    btnTitle: "Contact for Package Plans",
+    btnURL: "mailto:dbarrow@stanford.edu",
   },
   {
     isRightSection: true,
-    title: "Navigating Projects with Professional Oversight",
+    title: "Extensive Tutoring Experience",
     subTitle:
-      "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "My tutoring career began in 2018, covering a wide range of subjects from Algebra to Calculus. I've accumulated over 300 hours of one-on-one SAT tutoring, helping hundreds of high school students significantly improve their scores. My experience spans various institutions, including Homewood-Flossmoor High School and IMSA, providing me with diverse insights into different learning environments and student needs.",
     single: false,
     imgOne: constructionWorkers,
-    imgOneAlt: "Construction workers orchestrating a project",
+    imgOneAlt: "Group tutoring session",
     imgTwo: aerialView,
-    imgTwoAlt: "Aerial view of managed construction",
+    imgTwoAlt: "Bird's eye view of a college campus",
   },
   {
     isRightSection: false,
-    title: "Ensuring Long-lasting Performance",
+    title: "Personalized Approach",
     subTitle:
-      "Our commitment to your project doesn't end at completion. ScrewFast offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "I specialize in one-on-one sessions with high school students aged 14-18, focusing primarily on SAT Math, Reading, and Writing sections. My approach is highly personalized and results-driven. Each session begins with a review of progress and goals, followed by targeted instruction using official SAT materials. I ensure ample time for independent practice, which is crucial for mastery. My methods are continually adjusted based on each student's unique needs and learning style, ensuring optimal results.",
     img: usingTools,
-    imgAlt:
-      "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+    imgAlt: "Student and tutor working together on SAT prep",
   },
   {
     isRightSection: true,
-    title: "Crafting Bespoke Strategies for Unique Challenges",
+    title: "Classroom and Application Expertise",
     subTitle:
-      "For our larger enterprise clients, ScrewFast offers custom solutions designed to meet specific industry challenges. By understanding your unique needs, we engineer tailored strategies aimed at optimizing your operations, enhancing efficiency, and driving your business forward.",
+      "In classroom settings, I prioritize creating an engaging and clear learning environment. We work through practice problems together, identifying and improving weak areas while building confidence. Beyond SAT prep, I offer valuable insights into the college application process, drawing from my personal experiences with top-tier universities. This comprehensive approach ensures that students are well-prepared not just for the SAT, but for the entire college application journey.",
     single: false,
     imgOne: progressBuilding,
-    imgOneAlt: "In progress building structure",
+    imgOneAlt: "Students in a classroom setting",
     imgTwo: underConstruction,
-    imgTwoAlt: "Brown and gray building under construction",
+    imgTwoAlt: "Student working on college application",
     btnExists: true,
-    btnTitle: "Read more",
+    btnTitle: "Start Your Path to Success",
     btnURL: "#",
   },
 ];
@@ -100,35 +99,26 @@ const pageTitle: string = `Services | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    "url": "https://screwfast.uk/services",
-    "name": "Expert Consultation Services | ScrewFast",
-    "description": "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
+    "@id": "https://yourwebsite.com/services",
+    "url": "https://yourwebsite.com/services",
+    "name": "Expert College Consulting Services",
+    "description": "Comprehensive college consulting services including SAT prep, essay review, and application strategy from an Ivy League graduate.",
     "isPartOf": {
         "@type": "WebSite",
-        "url": "https://screwfast.uk",
-        "name": "ScrewFast",
-        "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
+        "url": "https://yourwebsite.com",
+        "name": "Your College Consulting Business",
+        "description": "Expert college admissions consulting and SAT preparation services."
     },
     "inLanguage": "en-US"
   }}
 >
-  <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Uniting Expertise with Your Vision"
-    subTitle="At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    title="Achieve Your College Dreams"
+    subTitle="With acceptance to every Ivy League university, MIT, and Stanford, I offer expert guidance to help you navigate the college admissions process and excel in your SAT preparation."
     btnExists={true}
     btnTitle="Schedule a Consultation"
     btnURL="#"
   />
-  <!-- RightSection and LeftSection contain details about various services along with pertinent imagery.
-  They alternate for variety in design.
-  The 'btnExists' property is used to toggle the display of a button in these sections.
-  When btnExists={true}, a button is displayed.
-  This can be used to link to more detailed information or related resources.
-  RightSection can also conditionally render one or two images based on the 'single' property.
-  If 'single' is true, it displays one image, otherwise it displays two.
-  -->
   {
     articles.map(article => {
       return article.isRightSection ? (
@@ -157,24 +147,23 @@ const pageTitle: string = `Services | ${SITE.title}`;
       );
     })
   }
-  <!--FeaturesStats section showcases essential stats valuable to users-->
   <FeaturesStats
-    title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At ScrewFast, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
-    mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ScrewFast as exceptional"
+    title="Success by the Numbers"
+    subTitle="My commitment to excellence is reflected in the achievements of my students and my own academic success."
+    mainStatTitle="100%"
+    mainStatSubTitle="Ivy League acceptance rate for my college applications"
     stats={[
       {
-        stat: "99.8%",
-        description: "project completion rate",
+        stat: "1550",
+        description: "Personal SAT score",
       },
       {
-        stat: "5,000+",
-        description: "successful installations",
+        stat: "300+",
+        description: "Hours of one-on-one SAT tutoring",
       },
       {
-        stat: "85%",
-        description: "client growth year-over-year",
+        stat: "Hundreds",
+        description: "of students helped to improve scores",
       },
     ]}
   />

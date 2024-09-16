@@ -9,11 +9,11 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contact us";
+const title: string = "Contact Me";
 const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
+  "Get in touch for tutoring help or to collaborate on exciting projects. Let's work together!";
 const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+const formSubTitle: string = "I'll try to get back to you in 3-5 business days";
 ---
 
 <!-- Contact Us -->
@@ -77,38 +77,38 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
       <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Knowledgebase"
-          content="Browse through all of our knowledgebase articles."
+          heading="Let's Connect"
+          content="If you would like to discuss tutoring opportunities or have any questions, feel free to reach out."
           isLinkVisible={true}
-          linkTitle="Visit guides & tutorials"
-          linkURL="#"
+          linkTitle="LinkedIn Profile"
+          linkURL="https://www.linkedin.com/in/dbarrow10"
           isArrowVisible={true}
           ><Icon name="question" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explore our FAQ for quick, clear answers to common queries."
+          heading="Questinos about Tutoring"
+          content="Check out my tutoring profile on Wyzant for more information."
           isLinkVisible={true}
-          linkTitle="Visit FAQ"
-          linkURL="#"
+          linkTitle="Wyzant Profile"
+          linkURL="https://www.wyzant.com/tutors/CollegeTutorDean"
           isArrowVisible={true}
           ><Icon name="chatBubble" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Visit our office"
-          content="UK ScrewFast"
+          heading="Visit Campus"
+          content="Stanford University"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="450 Serra Mall, Stanford, CA 94305"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Contact us by email"
-          content="Prefer the written word? Drop us an email at"
+          heading="Contact me by email"
+          content="Prefer the written word? Drop me an email at"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
+          linkTitle="dbarrow@stanford.edu"
           linkURL="#"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>
@@ -116,3 +116,23 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
     </div>
   </div>
 </section>
+
+<script>
+  import { sendEmail } from '../assets/scripts/send-email.js';
+
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData);
+
+    try {
+      await sendEmail(data);
+      alert('Message sent successfully!');
+      form.reset();
+    } catch (error) {
+      alert('Error sending message. Please try again later.');
+      console.error('Error:', error);
+    }
+  });
+</script>

@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Answers to common questions about myself",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "What are you involved with on campus?",
+      "answer": "I am an organizer for TreeHacks, the world's largest collegiate hackathon. I am also a member of the Jiu Jitsu club and Debate team."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "What are you currently working on?",
+      "answer": "I am developing a mental health app which combines my passion for tech with my desire to improve mental health."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "What research have you done?",
+      "answer": "My research experience spans both physics and computer science. During high school, I conducted particle physics research at Fermilab, where I focused on Dark Photons and the Higgs Boson. Subsequently, at Stanford University, I shifted my focus to the realm of cybersecurity. In this field, I have been actively involved in research projects, with a particular emphasis on DNS security. One of my key contributions was the development of a ZDNS validation tool for DNSSEC, which enhances the security and integrity of the Domain Name System."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "How can I best reach you?",
+      "answer": "The most direct way to connect with me is through email at dbarrow@stanford.edu. I'm always excited to engage in meaningful conversations or simply exchange ideas. Don't hesitate to reach out!"
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "What subjects are you most interested in?",
+      "answer": "I am passionate about the intersection between computer science, mathematics, and entrepreneurship. This forms the basis of my academic pursuits."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "What do you like to do in your free time?",
+      "answer": "I enjoy playing sports with friends, teaching violin to my students, and building out web apps."
     }
   ]
 }
