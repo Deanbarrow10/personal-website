@@ -7,6 +7,16 @@ import RightSection from "@components/ui/blocks/RightSection.astro";
 import FeaturesStats from "@components/sections/features/FeaturesStats.astro";
 
 // Import necessary images
+import harvard from "@images/harvard.png";
+import mit from "@images/mit.png";
+import commonApp from "@images/common-app.jpg";
+import coding from "@images/coding.jpg";
+import mandelbrot from "@images/mandelbrot.jpg";
+import studying from "@images/studying.jpg";
+import college from "@images/college.jpg";
+import graduation from "@images/graduation.jpg";
+
+
 import blueprints from "@images/blueprints-image.avif";
 import personWorking from "@images/person-working.avif";
 import beforeAfter from "@images/before-after.avif";
@@ -40,17 +50,17 @@ const articles: Article[] = [
     subTitle:
       "My academic journey has been marked by exceptional achievements, including acceptance into every single Ivy League university, MIT, and Stanford. With a near-perfect SAT score of 1550 (800 in Math, 750 in Reading/Writing), I bring a wealth of personal experience to my tutoring. I've successfully helped numerous students gain admission to top 20 universities, leveraging my firsthand knowledge of the application process.",
     single: false,
-    imgOne: blueprints,
+    imgOne: harvard,
     imgOneAlt: "Student reviewing college acceptance letters",
-    imgTwo: personWorking,
+    imgTwo: mit,
     imgTwoAlt: "Student studying with tutor",
   },
   {
     isRightSection: false,
     title: "Comprehensive Services",
     subTitle:
-      "I offer a wide range of services tailored to meet your college application needs. These include in-depth essay reviews, intensive SAT exam preparation, comprehensive Common App guidance, and strategic application planning recommendations. My rate is $200 per hour, with package plans available for more extensive support. For detailed information on package plans, please reach out to me directly at dbarrow@stanford.edu.",
-    img: beforeAfter,
+      "I offer a wide range of services tailored to meet your college application needs. These include in-depth essay reviews, intensive SAT exam preparation, comprehensive Common App guidance, and strategic application planning recommendations. For detailed information on package plans, please reach out to me directly at dbarrow@stanford.edu.",
+    img: commonApp,
     imgAlt: "Before and after SAT scores improvement",
     btnExists: true,
     btnTitle: "Contact for Package Plans",
@@ -60,11 +70,11 @@ const articles: Article[] = [
     isRightSection: true,
     title: "Extensive Tutoring Experience",
     subTitle:
-      "My tutoring career began in 2018, covering a wide range of subjects from Algebra to Calculus. I've accumulated over 300 hours of one-on-one SAT tutoring, helping hundreds of high school students significantly improve their scores. My experience spans various institutions, including Homewood-Flossmoor High School and IMSA, providing me with diverse insights into different learning environments and student needs.",
+      "My tutoring career began in 2018, covering a wide range of subjects from Algebra to Calculus and coding. I've accumulated over 300 hours of one-on-one SAT tutoring, helping hundreds of high school students significantly improve their scores. My experience spans various institutions, including Homewood-Flossmoor High School and IMSA, providing me with diverse insights into different learning environments and student needs.",
     single: false,
-    imgOne: constructionWorkers,
+    imgOne: coding,
     imgOneAlt: "Group tutoring session",
-    imgTwo: aerialView,
+    imgTwo: mandelbrot,
     imgTwoAlt: "Bird's eye view of a college campus",
   },
   {
@@ -72,7 +82,7 @@ const articles: Article[] = [
     title: "Personalized Approach",
     subTitle:
       "I specialize in one-on-one sessions with high school students aged 14-18, focusing primarily on SAT Math, Reading, and Writing sections. My approach is highly personalized and results-driven. Each session begins with a review of progress and goals, followed by targeted instruction using official SAT materials. I ensure ample time for independent practice, which is crucial for mastery. My methods are continually adjusted based on each student's unique needs and learning style, ensuring optimal results.",
-    img: usingTools,
+    img: studying,
     imgAlt: "Student and tutor working together on SAT prep",
   },
   {
@@ -81,9 +91,9 @@ const articles: Article[] = [
     subTitle:
       "In classroom settings, I prioritize creating an engaging and clear learning environment. We work through practice problems together, identifying and improving weak areas while building confidence. Beyond SAT prep, I offer valuable insights into the college application process, drawing from my personal experiences with top-tier universities. This comprehensive approach ensures that students are well-prepared not just for the SAT, but for the entire college application journey.",
     single: false,
-    imgOne: progressBuilding,
+    imgOne: college,
     imgOneAlt: "Students in a classroom setting",
-    imgTwo: underConstruction,
+    imgTwo: graduation,
     imgTwoAlt: "Student working on college application",
     btnExists: true,
     btnTitle: "Start Your Path to Success",
