@@ -29,8 +29,6 @@ This website serves as:
 
 ### 💼 Projects Section
 - **KoaCoach**: Gamified wellness coaching app with React Native + Flask
-- **AI Therapist Model**: Fine-tuned mental health support chatbot using Mistral 7B
-- **Coding Problems Collection**: Algorithm and data structure solutions
 - **DNSSEC Resolver**: Golang library for DNS security validation
 - Each project includes:
   - Technology stack used
@@ -56,7 +54,6 @@ This website serves as:
 
 - **Clean & Approachable**: User-friendly design focusing on content and readability
 - **Fully Responsive**: Mobile-first approach ensuring great experience on all devices
-- **Accessible**: Proper semantic HTML, ARIA labels, keyboard navigation
 - **Fast Loading**: Optimized with Astro's static site generation and efficient code
 - **Professional**: Clean typography and consistent color scheme
 
@@ -105,7 +102,7 @@ npm run build
 - Detailed project descriptions
 
 ### Skills & Technologies
-- Programming languages: Python, JavaScript, TypeScript, Go, C++
+- Programming languages: Python, JavaScript, TypeScript
 - Frameworks: Astro, React Native, Flask, Tailwind CSS
 - AI/ML: Machine Learning, DNSSEC, Data Analysis
 - Tools: Git, VS Code
