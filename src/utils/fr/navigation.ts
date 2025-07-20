@@ -30,7 +30,7 @@ const socialLinks = {
   facebook: "#",
   x: "#",
   github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "#",
+  linkedIn: "#", // Changed from "google" to "linkedIn"
   slack: "#",
 };
 

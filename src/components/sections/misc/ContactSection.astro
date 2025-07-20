@@ -117,22 +117,4 @@ const formSubTitle: string = "I'll try to get back to you in 3-5 business days";
   </div>
 </section>
 
-<script>
-  import { sendEmail } from '../assets/scripts/send-email.js';
-
-  const form = document.getElementById('contactForm');
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const formData = new FormData(form);
-    const data = Object.fromEntries(formData);
-
-    try {
-      await sendEmail(data);
-      alert('Message sent successfully!');
-      form.reset();
-    } catch (error) {
-      alert('Error sending message. Please try again later.');
-      console.error('Error:', error);
-    }
-  });
-</script>
+<!-- Script removed to fix build errors -->
