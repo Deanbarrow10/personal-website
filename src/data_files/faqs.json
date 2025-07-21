@@ -1,29 +1,29 @@
 {
-  "subTitle": "Answers to common questions about myself",
+  "subTitle": "Questions people usually ask me",
   "faqs": [
     {
-      "question": "What are you involved with on campus?",
-      "answer": "I am an organizer for TreeHacks, the world's largest collegiate hackathon. I am also a member of the Jiu Jitsu club and Debate team."
+      "question": "What are you up to at Stanford?",
+      "answer": "I help organize TreeHacks, the world's largest collegiate hackathon where thousands of students create innovative projects in just 36 hours. I'm also part of ASES (the entrepreneurial society) and play on the badminton club team."
     },
     {
-      "question": "What are you currently working on?",
-      "answer": "I am developing a mental health app which combines my passion for tech with my desire to improve mental health."
+      "question": "What are you building right now?",
+      "answer": "I'm developing an iOS wellness app that integrates AI into daily health routines to help people with their overall wellness. It's exciting because it combines everything I care about—technology, human connection, and actually helping people access support."
     },
     {
       "question": "What research have you done?",
-      "answer": "My research experience spans both physics and computer science. During high school, I conducted particle physics research at Fermilab, where I focused on Dark Photons and the Higgs Boson. Subsequently, at Stanford University, I shifted my focus to the realm of cybersecurity. In this field, I have been actively involved in research projects, with a particular emphasis on DNS security. One of my key contributions was the development of a ZDNS validation tool for DNSSEC, which enhances the security and integrity of the Domain Name System."
+      "answer": " In high school, I did particle physics research at Fermilab studying Dark Photons and the Higgs Boson. At Stanford, I switched to cybersecurity and built a ZDNS validation tool for DNSSEC to make internet infrastructure more secure."
     },
     {
       "question": "How can I best reach you?",
-      "answer": "The most direct way to connect with me is through email at dbarrow@stanford.edu. I'm always excited to engage in meaningful conversations or simply exchange ideas. Don't hesitate to reach out!"
+      "answer": "The best way to reach me is through email at dbarrow@stanford.edu. I love talking to people about projects, ideas, or really anything interesting. Always happy for a good conversation."
     },
     {
       "question": "What subjects are you most interested in?",
-      "answer": "I am passionate about the intersection between computer science, mathematics, and entrepreneurship. This forms the basis of my academic pursuits."
+      "answer": "The sweet spot where computer science, math, and building real products intersect. I love the theoretical side of CS, but what really drives me is using that knowledge to create something people actually want to use."
     },
     {
       "question": "What do you like to do in your free time?",
-      "answer": "I enjoy playing sports with friends, teaching violin to my students, and building out web apps."
+      "answer": "I play soccer, tennis, and badminton with friends, teach violin lessons, and like building iOS apps in my spare time. Always working on some kind of project."
     }
   ]
 }
