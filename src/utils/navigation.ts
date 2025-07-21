@@ -31,7 +31,7 @@ const socialLinks = {
   x: "https://twitter.com/dean_b20",
   github: "https://github.com/Deanbarrow10",
   linkedIn: "https://www.linkedin.com/in/dbarrow10",
-  slack: "https://stanfordesrg.slack.com/team/U06S5RM2Y8M",
+  // slack: "https://stanfordesrg.slack.com/team/U06S5RM2Y8M",
 };
 
 export default {

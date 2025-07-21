@@ -31,7 +31,7 @@ const socialLinks = {
   x: "#",
   github: "https://github.com/mearashadowfax/ScrewFast",
   linkedIn: "#", // Changed from "google" to "linkedIn"
-  slack: "#",
+  // slack: "#",
 };
 
 export default {
